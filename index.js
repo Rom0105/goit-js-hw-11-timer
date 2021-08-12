@@ -1,10 +1,10 @@
 class CountdownTimer {
   constructor({ selector, targetDate }) {
     this.refs = {
-      days: document.querySelector('.value[data-value="days"]'),
-      hours: document.querySelector('.value[data-value="hours"]'),
-      mins: document.querySelector('.value[data-value="mins"]'),
-      secs: document.querySelector('.value[data-value="secs"]'),
+      days: document.querySelector('.days[data-value="days"]'),
+      hours: document.querySelector('.hours[data-value="hours"]'),
+      mins: document.querySelector('.minutes[data-value="mins"]'),
+      secs: document.querySelector('.seconds[data-value="secs"]'),
     };
     this.selector = selector;
     this.targetDate = targetDate;
